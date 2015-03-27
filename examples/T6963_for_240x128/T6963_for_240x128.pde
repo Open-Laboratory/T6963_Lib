@@ -16,6 +16,7 @@ char* textmessage[] = { "           * Normal Display *           ", "          *
 int pcount;
 
 void setup(){
+  digitalWrite(32, HIGH); // For SafeDuino
   Serial.begin(9600);
   Serial.print("TH: ");
   Serial.println(LCD.getTH());
