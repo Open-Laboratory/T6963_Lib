@@ -100,7 +100,7 @@ public:
   void clearGraphic(void);
   void writeChar(char ch);
   void writeCharDec(char charCode);
-  void writeString(char * str);
+  void writeString(const char * str);
   void glcd_print2_P(unsigned char, unsigned char, const char*, const FONT_DEF*, unsigned char);
   void glcd_print1_P(unsigned char, unsigned char, const char*, const FONT_DEF*, unsigned char);
   void WriteStringPgm(const PROGMEM unsigned char * str);

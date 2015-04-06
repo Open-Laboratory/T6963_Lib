@@ -241,7 +241,7 @@ void T6963::writeCharDec(char charCode){
 // Example: LCD.TextGoTo(0,3); //Position
 //			LCD.writeString("Hello World"); Print String "Hello World"
 //-------------------------------------------------------------------------------------------------
-void T6963::writeString(char * string){
+void T6963::writeString(const char * string){
   while(*string){
     writeChar(*string++);
   }
